@@ -1,0 +1,55 @@
+.container{
+    position: absolute;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.innerContainer{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: white;
+    width: 40%;
+    height: 60vh;
+    top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-text-container{
+    background-color: chartreuse;
+    width: 50%;
+    text-align: center;
+}
+
+.text{
+    margin-top: 20vh;
+    font-size: 8vh;
+}
+
+.loginForm-container{
+    display: flex;
+    flex-direction: column;
+    /*top: 10vh;*/
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.loginForm{
+    margin-top: 20vh;
+}
+
+button{
+    width:5vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loginForm-container input{
+    /*padding-left:20px;*/
+    border-radius: 25px;
+    font-size: 5vh;
+    border: 1px solid black;
+}

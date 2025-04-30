@@ -1,0 +1,57 @@
+.navBar{
+    margin: 0;
+    background-color: black;
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    color: white;
+    align-self: center;
+}
+
+.search{
+    color: white;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search input{
+    background-color: #efe4e4;
+    border: none;
+    border-radius: 10vh;
+    width: 20vw;
+    height: 5vh;
+    align-items: center;
+}
+
+.search .home{
+    width: 5vh;
+    height: 5vh;
+}
+
+.search .search-icon{
+    width: 5vh;
+    height: 5vh;
+}
+
+li{
+    list-style: none;
+}
+
+.nav_bar_text{
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav_bar_text.active{
+    background-color: #efe4e4;
+    padding: 18px;
+    border-radius: 0 0 0 20px;
+}
+.links{
+    align-self: center;
+}
