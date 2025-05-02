@@ -1,7 +1,40 @@
-*{
-    margin: 0;
+/**{*/
+/*    margin: 0;*/
+/*}*/
+
+.homepage-container{
+    background-color: black;
+    position: absolute;
+    width: 100vw;
+    height: 92vh;
+    color: white;
+    top: 8vh;
+    left:0;
+    overflow: hidden;
 }
 
-/*.homepage-container{*/
-/*    background-color: black;*/
-/*}*/
+.container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 25px;
+}
+
+.container .search-bar{
+    width: 65vh;
+    align-self: center;
+    border-radius: 25vh;
+    padding: 2vw;
+    border: none;
+}
+
+.home-text{
+    text-align: center;
+}
+
+.btn{
+    width: 25vh;
+    background-color: lime;
+    font-size: 5vh;
+    border-radius: 25vh;
+}

@@ -2,8 +2,7 @@ import './stylesheets/login.css';
 
 const Login=()=>{
     return (
-        <>
-            <body className='container'>
+        <div className='container'>
             <div className='innerContainer'>
                 {/*<h1>Login Here</h1>*/}
                 <div className={'login-text-container'}>
@@ -20,8 +19,7 @@ const Login=()=>{
                     <button>Login</button>
                 </form>
             </div>
-            </body>
-        </>
+        </div>
     )
 };
 

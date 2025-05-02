@@ -11,21 +11,23 @@ const Navbar = () =>{
                     logo
                 </div>
                 <div className={'search'}>
-                    <BiSolidHomeHeart className={'home'}></BiSolidHomeHeart>
-                    <FiSearch className={'search-icon'}></FiSearch>
-                    <input type={'text'} placeholder={'search'}/>
+                    <a href={'/'}><BiSolidHomeHeart className={'home-icon'}></BiSolidHomeHeart></a>
+                    <div className={'searching'}>
+                        <FiSearch className={'search-icon'}></FiSearch>
+                        <input className={'search-bar'} type={'text'} placeholder={'search'}/>
+                    </div>
+
                 </div>
                 <div className={'links'}>
-                    <ul >
+                    <ul>
                         <li>
                             <Link to='/login' className='nav_bar_text active'>Login</Link>
                         </li>
                     </ul><Outlet/>
                 </div>
-
             </div>
         </div>
-    );
+    )
 };
 
 export default Navbar;

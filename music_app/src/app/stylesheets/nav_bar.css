@@ -1,10 +1,14 @@
-.navBar{
+*{
     margin: 0;
+}
+.navBar{
+    /*left: 0;*/
     background-color: black;
     width: 100vw;
     height: 8vh;
     display: flex;
     flex-direction: row;
+    margin-left: 0;
 }
 
 .logo{
@@ -18,23 +22,37 @@
     margin-left: auto;
     margin-right: auto;
 }
-.search input{
+
+.search .search-bar{
     background-color: #efe4e4;
     border: none;
     border-radius: 10vh;
     width: 20vw;
     height: 5vh;
     align-items: center;
+    margin-bottom: 3vh;
+    /*z-index: 2;*/
 }
 
-.search .home{
+.search .home-icon{
     width: 5vh;
     height: 5vh;
+    margin-left: -10vh;
+    margin-bottom: -7vh;
+    /*background-color: #9f9595;*/
+    /*border-radius: 50%;*/
+    padding: 0.5vw;
+    /*z-index: 1;*/
 }
 
 .search .search-icon{
     width: 5vh;
     height: 5vh;
+    margin-left: 10vh;
+    margin-bottom: -3vh;
+    /*background-color: #9f9595;*/
+    /*border-radius: 50%;*/
+    padding: 0.5vw;
 }
 
 li{
