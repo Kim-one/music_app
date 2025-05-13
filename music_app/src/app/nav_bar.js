@@ -2,6 +2,7 @@ import './stylesheets/nav_bar.css';
 import {Link, Outlet} from "react-router-dom";
 import {FiSearch} from "react-icons/fi";
 import { BiSolidHomeHeart } from "react-icons/bi";
+import { RiPlayListLine } from "react-icons/ri";
 
 const Navbar = () =>{
     return (
@@ -12,6 +13,7 @@ const Navbar = () =>{
                 </div>
                 <div className={'search'}>
                     <a href={'/'}><BiSolidHomeHeart className={'home-icon'}></BiSolidHomeHeart></a>
+                    <a href={'playlists'}><RiPlayListLine className={'playlist-icon'}></RiPlayListLine></a>
                     <div className={'searching'}>
                         <FiSearch className={'search-icon'}></FiSearch>
                         <input className={'search-bar'} type={'text'} placeholder={'search'}/>

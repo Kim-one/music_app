@@ -35,14 +35,20 @@
 }
 
 .search .home-icon{
-    width: 5vh;
+    width: 5vw;
     height: 5vh;
-    margin-left: -10vh;
+    margin-left: -15vh;
     margin-bottom: -7vh;
-    /*background-color: #9f9595;*/
-    /*border-radius: 50%;*/
     padding: 0.5vw;
-    /*z-index: 1;*/
+}
+
+.search .playlist-icon{
+    position: relative;
+    color: white;
+    width: 5vw;
+    height: 5vh;
+    margin-bottom: -6vh;
+    /*background-size: 60vw;*/
 }
 
 .search .search-icon{

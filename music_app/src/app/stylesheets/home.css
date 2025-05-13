@@ -3,7 +3,7 @@
 /*}*/
 
 .homepage-container{
-    background-color: black;
+    background-color: #00ffea;
     position: absolute;
     width: 100vw;
     height: 92vh;
@@ -14,6 +14,7 @@
 }
 
 .container{
+    background-color: #00ffea;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -37,4 +38,12 @@
     background-color: lime;
     font-size: 5vh;
     border-radius: 25vh;
+}
+
+.setMood{
+    text-align: center;
+    width: 6vw;
+    height: 5vh;
+    border-radius: 25vh;
+    border: none;
 }

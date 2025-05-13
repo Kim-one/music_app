@@ -1,0 +1,25 @@
+.playlist-container{
+    background-color: #afb3bc;
+    width:100vw;
+    height: 92vh;
+    left:0;
+    top: 8vh;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap:3vw;
+
+}
+
+.displaySongs{
+    /*position: relative;*/
+    border: 1px solid blue;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    align-self: center;
+}
+
+.display-playlist{
+    border: 1px solid black;
+    width: 25vw;
+}
