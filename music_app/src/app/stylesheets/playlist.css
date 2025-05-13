@@ -7,19 +7,39 @@
     position: absolute;
     display: flex;
     flex-direction: row;
-    gap:3vw;
-
+    gap:2.5vw;
 }
 
 .displaySongs{
-    /*position: relative;*/
-    border: 1px solid blue;
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
-    align-self: center;
+    position: relative;
+    border: 2px solid blue;
+    height: 91vh;
+    width: 75vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .display-playlist{
-    border: 1px solid black;
+    border: 2px solid blue;
     width: 25vw;
+    height: 91vh;
+}
+
+.playlist-icon {
+    position: relative;
+    color: white;
+    width: 5vw;
+    height: 5vh;
+    margin-bottom: 1vh;
+    /*background-size: 60vw;*/
+}
+
+.playlist-name {
+    border: 1px solid black;
+    width: 20vw;
+    height: 10vh;
+    margin-left: auto;
+    margin-right: auto;
 }
